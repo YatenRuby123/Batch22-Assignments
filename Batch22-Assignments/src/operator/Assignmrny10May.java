@@ -7,13 +7,24 @@ import java.text.*;
 public class Assignmrny10May {
 
 		  
-	public static void main(String[] args)throws Exception {
+public static void main(String[] args)throws Exception {
 		 long yourmilliseconds = 1462928931995L;
 		SimpleDateFormat sdf = new SimpleDateFormat("E MMM d HH:mm:ss z  yyyy");
 		 
 		Date resultdate = new Date(yourmilliseconds);
-		System.out.println(sdf.format(resultdate));  } 
-		}    
+		System.out.println(sdf.format(resultdate));
+		
+		MilliSec();
+		
+	} 
+		public static void MilliSec() {
+	   long milliSec = 1462928931995L;
+	   Date date = new Date(milliSec);
+	   System.out.println("Date is: " + date);
+		}
+	
+}    
+
 
 
 
